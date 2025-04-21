@@ -28,7 +28,7 @@ spec:
           main:
             image:
               repository: docker.io/ckulka/baikal
-              tag: 0.10.1-nginx-php8.2@sha256:aebc5b93ae6f9fae6d07c601c695b9608e048709425a173e96371c0c73db665d
+              tag: 0.10.1-nginx-php8.2@sha256:0d497f25665d2e8e7b0a9c14023338ce64fc2321e254771d611472bae558652a
             resources:
               requests:
                 cpu: 15m

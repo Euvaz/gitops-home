@@ -77,7 +77,10 @@ spec:
                 requests:
                   storage: 250Mi
     crds:
-      enabled: false
+      enabled: true
+      upgradeJob:
+        enabled: true
+        forceConflicts: true
     cleanPrometheusOperatorObjectNames: true
     grafana:
       enabled: false

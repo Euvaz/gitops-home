@@ -30,4 +30,3 @@ spec:
           labelSources: ["pci", "system", "usb"]
     prometheus:
       enable: true
-

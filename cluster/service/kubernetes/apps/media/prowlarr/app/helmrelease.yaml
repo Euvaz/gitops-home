@@ -34,7 +34,7 @@ spec:
           main:
             image:
               repository: ghcr.io/home-operations/prowlarr
-              tag: 1.33.1.4997@sha256:3bb878cf5d447934f4f3848315f3cf393bdc269eee9f823df34e06768a55ddb3
+              tag: 1.37.0.5076@sha256:aab0bfd4e96bdca19cca280a2bbf8ac60b9251dcae13459856b724a2dd3ae020
             env:
               TZ: "${TIMEZONE}"
               PROWLARR__INSTANCE_NAME: Prowlarr

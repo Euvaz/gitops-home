@@ -28,7 +28,7 @@ spec:
           main:
             image:
               repository: docker.io/sissbruecker/linkding
-              tag: 1.40.0@sha256:e498575b84f5e84d36ed69ed0036ff33916b3d1bb5908f1892ac935e1754590d
+              tag: 1.42.0@sha256:12ffd6f3b48c5d46543d2f38030de1f476d8dcff5f486eb75c9c7cb5941e7127
             env:
               LD_SUPERUSER_NAME:
                 secretKeyRef:

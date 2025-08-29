@@ -9,13 +9,13 @@ machine:
         key: ""
     certSANs: []
     kubelet:
-        image: ghcr.io/siderolabs/kubelet:v1.31.6
+        image: ghcr.io/siderolabs/kubelet:v1.33.4
         defaultRuntimeSeccompProfileEnabled: true
         disableManifestsDirectory: true
     network: {}
     install:
         disk: /dev/nvme0n1
-        image: ghcr.io/siderolabs/installer:v1.8.4
+        image: ghcr.io/siderolabs/installer:v1.10.7
         wipe: false
     registries: {}
     features:
@@ -50,10 +50,6 @@ cluster:
                 disabled: true
             service: {}
 sops:
-    kms: []
-    gcp_kms: []
-    azure_kv: []
-    hc_vault: []
     age:
         - recipient: age13srthcdyr08hp7w5xvezn5fex4p5kw7tky2pnrfef2u4j3uqsqgqwak9gc
           enc: |
@@ -64,8 +60,7 @@ sops:
             M3M2OVRtMEw3U0dNRmYwR1RzL2tVVGMK/ohVcAP9o69ZM7IGfFk9q8Ry6V1+jfXa
             icP4QKFcYNYjCvGHyBhCxe+WEhKBXHSajNbBh+4eYwXwlh0iJ87QAw==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2025-03-30T08:15:47Z"
-    mac: ENC[AES256_GCM,data:seRKS8mW58tXTd4iPjNAc278i8LZA6KBRg3eNa1aTP0LrP8Iu+UOD5IC9r2cFj3HeOYcxPYMt9qRbchuJPCWgRWuZP//niDPPZT+1LBoEz1EHfhR0J+/DKVX4PwgktZswDkGZOY3JKyNDlO+0Wcp068W7gKABOBzIzDMjQfp+g8=,iv:fMUNaF/cRgDcJPSPVinz5Wq1N3mCBj4obhdoFMaxFaE=,tag:X7zLI2JmF1EJbVtOA0UWQg==,type:str]
-    pgp: []
+    lastmodified: "2025-08-29T04:59:20Z"
+    mac: ENC[AES256_GCM,data:z/G41CWnhHSoqc2d/BwK2j0CAk9dwvTBhn1y78y166nVZoyn0KeqPHt8miy6FTMcvf9K6kV6EQKa/LYs5zkIievKTwyiz8/fgE0Sd5AELJOChCaflkK1RbzHTlP3cdS38Dd5RsiwuFMd9esAZMdJ73C3v4BOoad3HH86/+0PLKg=,iv:t218fUFqiXBv/1Y8vmqH6/DrGfp46AdtsyPLDnmtGRY=,tag:DB+eQ3p2VnDOpE62ZGHwpw==,type:str]
     encrypted_regex: secrets?|crt|key|token|serviceAccount
-    version: 3.9.4
+    version: 3.10.2

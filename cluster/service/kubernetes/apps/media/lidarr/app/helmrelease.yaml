@@ -31,7 +31,7 @@ spec:
           main:
             image:
               repository: ghcr.io/home-operations/lidarr
-              tag: 2.14.0.4694@sha256:69d236b7b035e50faf51f138d37adb8ef8b996dc3f588cec547e83f38493b23b
+              tag: 2.14.1.4755@sha256:c8d5d440df15ce861a8c7b4c9253f9aec59a71d15c26883f9f884a07322c430c
             env:
               TZ: "${TIMEZONE}"
               LIDARR__INSTANCE_NAME: Lidarr

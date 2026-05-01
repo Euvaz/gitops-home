@@ -23,7 +23,7 @@ spec:
           main:
             image:
               repository: ghcr.io/requarks/wiki
-              tag: "2.5.308"
+              tag: "2.5.314"
               pullPolicy: IfNotPresent
             env:
               TZ: ${TIMEZONE}

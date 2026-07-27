@@ -30,7 +30,7 @@ spec:
           main:
             image:
               repository: docker.io/mumblevoip/mumble-server
-              tag: v1.4.287-4@sha256:dd6cbd5dc981dc0433edebd7f9aee220431d23600b9ef7109dbe24b0feae6ad1
+              tag: v1.6.870-4@sha256:5129662d9cbe0bc83bca152056cb9c337f592a2ad9e87fa0ea7844b4efb3d5b7
             env:
               MUMBLE_SUPERUSER_PASSWORD:
                 secretKeyRef:
